@@ -12,10 +12,11 @@
 
 class Formula : public Observer  {
 public:
-    explicit Formula(float vl=0.);
+    explicit Formula(Cell* ptr): ptr(ptr){}
+    float getvalue() const;
     virtual void update() override;
-    virtual void addCell(Subject* s) override;
-    virtual void removeCell(Subject* s) override;
+    virtual void addCell(Subject* s) ;
+    virtual void removeCell(Subject* s) ;
     virtual void calc() = 0;
 
 private:
