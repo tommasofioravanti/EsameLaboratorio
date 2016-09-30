@@ -19,7 +19,7 @@ public:
     virtual void removeCell(Subject* s) ;
     virtual void calc() = 0;
 
-private:
+protected:
     float value;
     std::list<Subject*>subject;
     Cell* ptr;
