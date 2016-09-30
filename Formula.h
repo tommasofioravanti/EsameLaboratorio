@@ -7,9 +7,18 @@
 
 
 #include "Observer.h"
+#include "Cell.h"
 #include <list>
 
 class Formula : public Observer  {
+public:
+    explicit Formula(float vl=0.);
+    virtual void update() override;
+    virtual void addCell(Subject* s) override;
+    virtual void removeCell(Subject* s) override;
+    virtual void calc() = 0;
+
+
 
 
 
@@ -18,6 +27,7 @@ class Formula : public Observer  {
 private:
     float value;
     std::list<Subject*>subject;
+    Cell* ptr;
 };
 
 
