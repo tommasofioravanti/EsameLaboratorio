@@ -11,3 +11,5 @@ void Formula::addCell(Subject *s) {
 void Formula::removeCell(Subject *s) {
 
 }
+
+

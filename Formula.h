@@ -18,11 +18,6 @@ public:
     virtual void removeCell(Subject* s) override;
     virtual void calc() = 0;
 
-    virtual void addCell(Subject *s) override;
-
-    virtual void removeCell(Subject *s) override;
-
-
 private:
     float value;
     std::list<Subject*>subject;
