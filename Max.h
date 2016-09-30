@@ -6,7 +6,12 @@
 #define ESAMELABORATORIO_MAX_H
 
 
-class Max {
+#include "Formula.h"
+
+class Max : public Formula{
+public:
+    Max(Cell* ptr):Formula(ptr){}
+    virtual void calc()override ;
 
 };
 

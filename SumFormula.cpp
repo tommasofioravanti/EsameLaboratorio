@@ -6,8 +6,8 @@
 
 void SumFormula::calc() {
     float x=0;
-    for (auto itr= subject.begin();itr!=subject.end();itr++)
-        x+= dynamic_cast<Cell*>(*itr)->getValue();
+    for (auto itr= cell.begin();itr!=cell.end();itr++)
+        x+=(*itr)->getValue();
     value=x;
     ptr->setValue(value);
 }
