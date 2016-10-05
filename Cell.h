@@ -21,7 +21,7 @@ public:
     virtual void subscribe(Observer*o)override ;
     virtual void unsubscribe(Observer*o)override ;
 
-private:
+protected:
     float value;
     std::list<Observer*>observers;
 
