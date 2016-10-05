@@ -1,6 +1,3 @@
-
-
-
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QTableWidget>
