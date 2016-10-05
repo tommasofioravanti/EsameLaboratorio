@@ -6,7 +6,13 @@
 #define ESAMELABORATORIO_SUMFORMULA_H
 
 
-class SumFormula {
+#include "Cell.h"
+#include "Formula.h"
+
+class SumFormula : public Formula {
+public:
+    SumFormula(Cell* ptr) : Formula(ptr){}
+    virtual void calc() override;
 
 };
 

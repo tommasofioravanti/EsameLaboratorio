@@ -15,13 +15,13 @@ public:
     explicit Formula(Cell* ptr): ptr(ptr){}
     float getvalue() const;
     virtual void update() override;
-    virtual void addCell(Subject* s) ;
-    virtual void removeCell(Subject* s) ;
+    virtual void addCell(Cell* cel) ;
+    virtual void removeCell(Cell* cel) ;
     virtual void calc() = 0;
 
-private:
+protected:
     float value;
-    std::list<Subject*>subject;
+    std::list<Cell*> cell;
     Cell* ptr;
 };
 

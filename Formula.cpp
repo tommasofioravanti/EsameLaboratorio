@@ -4,9 +4,9 @@
 
 #include "Formula.h"
 
-void Formula::addCell(Subject *s) {
-    subject.push_back(s);
-    s->subscribe(this);
+void Formula::addCell(Cell *cel) {
+    cell.push_back(cel);
+    cel->subscribe(this);
     update();
 }
 
@@ -14,9 +14,9 @@ float Formula::getvalue() const {
     return value;
 }
 
-void Formula::removeCell(Subject *s) {
-    subject.remove(s);
-    s->unsubscribe(this);
+void Formula::removeCell(Cell *cel) {
+    cell.remove(cel);
+    cel->unsubscribe(this);
     update();
 }
 
