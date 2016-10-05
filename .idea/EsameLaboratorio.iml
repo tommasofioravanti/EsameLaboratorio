@@ -5,14 +5,39 @@
       <sourceFolder url="file://$MODULE_DIR$/SumFormula.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SumFormula.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Max.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QDDSPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreMacros.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfig.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Users/tommaso/Desktop/QT/5.7/mingw53_32/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Observer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Mean.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Max.cpp" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Min.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Formula.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Formula.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Min.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Mean.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Formula.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Min.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Cell.cpp" isTestSource="false" />
@@ -23,18 +48,18 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://C:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
-          <root url="file://C:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include" />
-          <root url="file://C:/Qt/Tools/mingw530_32/i686-w64-mingw32/include" />
-          <root url="file://C:/Qt/5.7/mingw53_32/include" />
-          <root url="file://C:/Qt/5.7/mingw53_32/mkspecs/win32-g++" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/i686-w64-mingw32/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/5.7/mingw53_32/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/5.7/mingw53_32/mkspecs/win32-g++" />
         </CLASSES>
         <SOURCES>
-          <root url="file://C:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
-          <root url="file://C:/Qt/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include" />
-          <root url="file://C:/Qt/Tools/mingw530_32/i686-w64-mingw32/include" />
-          <root url="file://C:/Qt/5.7/mingw53_32/include" />
-          <root url="file://C:/Qt/5.7/mingw53_32/mkspecs/win32-g++" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include-fixed" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/lib/gcc/i686-w64-mingw32/5.3.0/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/Tools/mingw530_32/i686-w64-mingw32/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/5.7/mingw53_32/include" />
+          <root url="file://$USER_HOME$/Desktop/QT/5.7/mingw53_32/mkspecs/win32-g++" />
         </SOURCES>
       </library>
     </orderEntry>
