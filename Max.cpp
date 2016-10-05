@@ -5,9 +5,9 @@
 #include "Max.h"
 
 void Max::calc() {
-    float z = 0.;
+    float z = 0;
     cell.sort();
-    z = (cell.back()->getValue());
+    z = (cell.back()->getValue()).toFloat();
     value = z;
     ptr->setValue(value);
 }

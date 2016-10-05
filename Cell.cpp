@@ -7,17 +7,32 @@
 
 Cell::Cell(float v) : value(v) {}
 
-float Cell::getValue() const {
-    return value;
+QString Cell::getValue() const {
+    return QTableWidgetItem::text();
 }
 
 void Cell::setValue(float v) {
-    v = value;
+    QString s = QString::fromStdString(std::to_string(v));
+    this->setText(s);
+    notify();
+}
+
+void Cell::setText(const QString &text) {
+    QTableWidgetItem::setText(text);
     notify();
 }
 
 Cell::~Cell() {
 
+}
+
+void Cell::setData(int role, const QVariant &value) {
+    QTableWidgetItem::setData(role, value);
+    notify();
+}
+
+Cell *Cell::clone() const {
+    return new Cell(*this);
 }
 
 void Cell::notify() {
