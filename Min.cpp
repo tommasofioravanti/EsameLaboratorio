@@ -5,9 +5,9 @@
 #include "Min.h"
 
 void Min::calc() {
-    float y = 0;
-    cell.sort();
-    y = (cell.front()->getValue()).toFloat();
-    value = y;
+    value = (cell.front()->getValue()).toFloat();
+for (auto itr = cell.begin(); itr != cell.end(); ++itr)
+    if(value > ((*itr)->getValue()).toFloat())
+        value = ((*itr)->getValue()).toFloat();
     ptr->setValue(value);
 }

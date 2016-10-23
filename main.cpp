@@ -1,13 +1,14 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QTableWidget>
+#include <QtWidgets/qheaderview.h>
 #include "Cell.h"
 #include "SumFormula.h"
 #include "Mean.h"
 #include "Min.h"
 #include "Max.h"
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)  {
     QApplication app(argc, argv);
     //creo finestra
     QMainWindow *window = new QMainWindow();
@@ -29,6 +30,13 @@ int main(int argc, char **argv) {
     table->setItem(2, 0, cell3);
     table->setItem(3, 0, cell4);
 
+    //colori vari
+    //table->item(0,0)->setBackground(Qt::cyan); solo 1 cella
+    QPalette p = table->palette();
+    p.setColor(QPalette::Base, Qt::red);//tutto
+    p.setColor(QPalette::Text, Qt::cyan);
+    table->setStyleSheet("QHeaderView::section{background-color:red}");
+    table->setPalette(p);
 
     Cell *sumCell = new Cell();
     table->setItem(0,1, sumCell);
