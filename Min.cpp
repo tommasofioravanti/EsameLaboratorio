@@ -6,8 +6,8 @@
 
 void Min::calc() {
     value = (cell.front()->getValue()).toFloat();
-for (auto itr = cell.begin(); itr != cell.end(); ++itr)
-    if(value > ((*itr)->getValue()).toFloat())
-        value = ((*itr)->getValue()).toFloat();
+    for (auto itr = cell.begin(); itr != cell.end(); itr++)
+        if (value > ((*itr)->getValue()).toFloat())
+            value = ((*itr)->getValue()).toFloat();
     ptr->setValue(value);
 }
